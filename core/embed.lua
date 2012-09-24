@@ -382,7 +382,7 @@ if IsAddOnLoaded("Tukui") then
 			EmbedOoCButton:SetBackdropColor(0.68,0.14,0.14,1)
 		else
 			U.EnableOption("EmbedOoC")
-			EmbedOoCButtonSetBackdropColor(0.11,0.66,0.11,1)
+			EmbedOoCButton:SetBackdropColor(0.11,0.66,0.11,1)
 		end
 	end)
 
